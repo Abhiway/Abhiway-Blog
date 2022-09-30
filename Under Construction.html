@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css" />
+    <script src="bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Aos-Animation -->
+    <link rel=" stylesheet " href="/Aos_animation/aos.css " />
+    <!-- Fonts -->
+    <link rel="stylesheet " href="/fonts.css " />
+    <title>Under Construction</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+     :root {
+        --black: #43464b;
+        --grey: #26272c;
+        --white: #ffffff;
+        --color: #f16232;
+        --ash: #f8f8f8;
+        --selection: #f7ab92;
+    }
+    
+    body {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        scroll-behavior: smooth;
+        color: var(--black);
+    }
+    
+     ::selection {
+        background: var(--selection) !important;
+        color: var(--white) !important;
+    }
+    
+    .container {
+        max-width: 1200px;
+    }
+    
+    section {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden !important;
+    }
+    
+    h1 {
+        font-size: 70px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    
+    h1 span {
+        font-weight: 700;
+        color: #f16232;
+    }
+    
+    em {
+        display: block;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 40px;
+    }
+    
+    .btn {
+        width: 150px !important;
+        color: white;
+        background-color: #f16232;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .btn:hover {
+        background-color: #f16232 !important;
+        color: white;
+    }
+    
+    .btn:hover {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    
+    @media (min-width: 0) and (max-width: 576px) {
+        secttion {
+            max-width: 100%;
+            margin: auto auto;
+            height: auto;
+            overflow-x: hidden;
+        }
+        h1 {
+            font-size: 35px;
+            margin-bottom: 10px;
+            text-overflow: ellipsis;
+        }
+        em {
+            font-size: 12px;
+            margin-bottom: 30px;
+            line-height: 26px;
+        }
+        .btn {
+            font-size: 12px;
+        }
+    }
+</style>
+
+<body>
+    <section style="background-color: #f8f8f8">
+        <div class="container">
+            <div class="header_box text-center d-flex justify-content-center align-items-center flex-wrap" style="position: relative; width: 100%; height: 100vh">
+                <header>
+                    <h1 data-aos="fade-up" data-aos-easing="ease-in-out">
+                        <span> Under</span> Construction
+                    </h1>
+                    <em data-aos="fade-up" data-aos-easing="ease-in-out">
+              we're making lots of improvements and we will be back soon Thank
+              you !!
+            </em>
+                    <div class="btn_box" data-aos="fade-up" data-aos-easing="ease-in-out">
+                        <a href="/index.html" class="btn btn-defulat">Back To Home</a>
+                    </div>
+                    <figure data-aos="fade-up" data-aos-easing="ease-in-out">
+                        <img src="Images/Under Construction.png" class="img-fluid" alt="Image" />
+                    </figure>
+                </header>
+            </div>
+        </div>
+    </section>
+    <!-- Aos-animation -->
+    <script src="/Aos_animation/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
